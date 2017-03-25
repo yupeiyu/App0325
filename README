@@ -1,2 +1,29 @@
+筆記：
+
 新加activity要去Manifest.xml加入下面一行才能跑
 <activity android:name=".AddActivity" /> 
+
+finish();關視窗
+
+onResume(); 下一頁新增的資料，回到上一頁會顯示
+
+onCreate(); 下一頁新增的資料，回到上一頁不會顯示
+
+remove();最好迴圈倒過來寫，才不會漏掉
+
+for each 迴圈不能更動List大小
+foreach用於存取Array或List裡面所有資料
+參見：http://yindingtsai.blogspot.tw/2010/03/java-for-each-for-eachfor-each-array.html
+
+測試程式要附在裡面，未來省時
+
+ 在實作檔裡
+ public static ArrayList<Student> data = new ArrayList<>();
+ //data只有一個每次test前都要清空 才不會出錯
+ 
+ 在UniTest時
+ impl.clearAll();
+ //data只有一個每次test前都要清空 才不會出錯
+ 
+ Interface DAO
+ 裡面列出方法
