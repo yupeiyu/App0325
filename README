@@ -1,5 +1,5 @@
 筆記：
- ![](https://raw.githubusercontent.com/yupeiyu/pic/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-03-26%20%E4%B8%8A%E5%8D%8812.40.20.png)
+ ![image](https://raw.githubusercontent.com/yupeiyu/pic/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-03-26%20%E4%B8%8A%E5%8D%8812.40.20.png)
 
 新加activity要去Manifest.xml加入下面一行才能跑
 <activity android:name=".AddActivity" /> 
