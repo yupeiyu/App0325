@@ -1,0 +1,2 @@
+新加activity要去Manifest.xml加入下面一行才能跑
+<activity android:name=".AddActivity" /> 
